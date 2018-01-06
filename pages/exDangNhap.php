@@ -18,7 +18,7 @@
             $_SESSION["maLoaiTaiKhoan"] = $row["MaLoaiTaiKhoan"];
 
             if($_SESSION["maLoaiTaiKhoan"] == 2) {
-                DataProvider::ChangeURL("admin/index.php");
+                DataProvider::ChangeURL("index.php");
             }
             else {
                 if (strrpos($url, "a=0") != "")

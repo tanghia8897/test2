@@ -18,7 +18,7 @@
                 echo "Tên đăng nhập hoặc mật khẩu bị sai";
                 break;
             default:
-                echo "Quậy hả BƯỞI !!!";
+                echo "Lỗi ngoại lệ :(( !";
         }
     ?>
 </h1>

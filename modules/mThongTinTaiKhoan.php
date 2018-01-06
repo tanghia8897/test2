@@ -1,5 +1,4 @@
-<div class="frmdx">
-	
+<div class="frmdx">	
 	<?php
 		    echo "Hello, ".$_SESSION["tenHienThi"]." | ";
 		?>
